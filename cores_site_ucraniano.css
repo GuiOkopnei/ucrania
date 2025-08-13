@@ -1,52 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;}
-
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 .cabecalho {
-    background-color: blue;
-    color: yellow;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 22%, rgba(0,0,195,1) 63%, rgba(234,244,0,1) 80%);
-padding: 8px 24px;
-text-align: center;
+	background-color: blue;
+	color: yellow;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 22%, rgba(0, 0, 195, 1) 63%, rgba(234, 244, 0, 1) 80%);
+	padding: 8px 34px;
+	text-align: center;
 }
 
 .bnt {
-    color: yellow;
+	color: yellow;
 }
-.text{
-    color: yellow;
+.text {
+	color: yellow;
 }
-.imagem_pika{
-    height: 100%;
+.imagem_pika {
+	height: 100%;
 }
-.background{
-    background-image: url(img/ucrania.jpg);
-    background-size: cover;
+.background {
+	background-image: url(img/ucrania.jpg);
+	background-size: cover;
 }
 
-.botao1{
-    background-color: blue;
-    color: yellow;
-    padding: 8px 24px;
+.botao1 {
+	background-color: blue;
+	color: yellow;
+	padding: 8px 24px;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-.botao2{
-    background-color: blue;
-    color: yellow;
-    padding: 8px 24px;
+.botao2 {
+	background-color: blue;
+	color: yellow;
+	padding: 8px 24px;
 }
 
-.botao3{
-    background-color: blue;
-    color: yellow;
-    padding: 8px 24px;
+.botao3 {
+	background-color: blue;
+	color: yellow;
+	padding: 8px 24px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	margin: 3em;
+	size: 15cm;
+	align-items: center;
 }

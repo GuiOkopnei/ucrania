@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="cores_venda.css" />
+		<title>Venda Seu Carro</title>
+		<link rel="stylesheet" href="reset.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cores_venda.css">
-    <title>Venda Seu Carro</title>
+	<body class="background3">
+		<header class="cabecalho3">
+			<div class="abril-fatface-regular">POR QUE VENDER?</div>
+		</header>
+		<main>
+			<div class="carta2">
+				<div>
+					<h3 class="card_checkmark abril-fatface-regular">fácil e confiável</h3>
+					<img src="img/checkmark.png" alt="check" />
+				</div>
+				<div class="card_crime_de_guerra">
+					<h3 class="cabeca_otan abril-fatface-regular">milhões de compradores!</h3>
+					<img src="img/crime de gerra.png" alt="otan" />
+				</div>
+				<div class="card_zanini">
+					<h3 class="judeu abril-fatface-regular">parceria com os melhores bancos</h3>
+					<img src="/img/zanini.png" alt="" />
+				</div>
+			</div>
+			<br /><br /><br /><br />
+			<div class="correio">
+				<button class="correio-b abril-fatface-regular" onclick="botao_clicado()">enviar carro pelo correio</button>
+				<div class="aviso-usuario" id="botao-usuario">
+					<span> Este Uzuário<br />já eqsiste.! </span>
+				</div>
+			</div>
+		</main>
 
-</head>
+		<script>
+			function botao_clicado() {
+				document.getElementById("botao-usuario").style.display = "flex";
+			}
+		</script>
 
-<body class="background3">
-    <header class="cabecalho3">
-        <div class="abril-fatface-regular">POR QUE VENDER?</div>
-    </header>
-    <main>
-        <div class="carta2">
-            <div>
-                <h3 class="card_checkmark abril-fatface-regular">
-                    fácil e confiável
-                </h3>
-                <img src="img/checkmark.png" alt="check" />
-            </div>
-            <div class="card_crime_de_guerra">
-                <h3 class="cabeca_otan abril-fatface-regular">
-                    milhões de compradores!
-                </h3>
-                <img src="img/crime de gerra.png" alt="otan">
-            </div>
-            <div class="card_zanini">
-                <h3 class="judeu abril-fatface-regular">
-                    parceria com os melhores bancos
-                </h3>
-                <img src="/img/zanini.png" alt="">
-            </div>
-
-        </div>
-        <br><br><br><br>
-        <div class="correio">
-            <button class="correio-b abril-fatface-regular" onclick="botao_clicado()">enviar carro pelo correio</button>
-            <div class="aviso-usuario" id="botao-usuario">
-                <span>
-                    Este Uzuário<br>já eqsiste.!
-                </span>
-            </div>
-        </div>
-    </main>
-
-    <script>
-        function botao_clicado() {
-            document.getElementById("botao-usuario").style.display = "flex"
-        }
-    </script>
-    
-<a href="http://127.0.0.1:5500/ucrania_veiculos.html"><button class="voltar2">voltar</button></a>
-</body>
-
+		<a href="http://127.0.0.1:5500/ucrania_veiculos.html"><button class="voltar2">voltar</button></a>
+	</body>
 </html>
